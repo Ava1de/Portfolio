@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in touch</title>    
+<link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="logo">Avalde Logo</li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Experience.html">Experience</a></li>
+                    <li><a href="Get in touch.html">Get in touch</a></li>                
+                </ul>
+            </nav>
+
+        </header>
+        <section>
+            
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2 class="contact">Get in Touch</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="a7307d02-417d-4fc5-a886-a763d3b4d608">
+                    <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <input type="contact" name="contact" placeholder="Phone" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            
+             <div class="contact-right">
+                <img src="png/Contact me.png" class="touch>
+             </div>
+            </div>      
+        </section>
+        <script src="https://web3forms.com/client/script.js" async defer></script>   
+    </body>
+</html>
